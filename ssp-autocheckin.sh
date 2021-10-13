@@ -263,8 +263,8 @@ ssp_autochenkin() {
             login_status=$(echo ${login} | jq -r '.msg' 2>&1)
 
             login_log_text="\n用户 ${user_count}\n"
-            login_log_text="${login_log_text}签到站点: ${domain_text}\n"
-            login_log_text="${login_log_text}签到用户: ${username_text}\n"
+            login_log_text="${login_log_text}签到站点: ${domain}\n"
+            login_log_text="${login_log_text}签到用户: ${username}\n"
             login_log_text="${login_log_text}签到时间: ${start_time}\n"
 
             if [ "${login_code}" == "1" ]; then
