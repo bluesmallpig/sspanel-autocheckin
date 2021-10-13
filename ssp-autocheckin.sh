@@ -6,7 +6,7 @@ VERSION="2.2.2"
 ENV_PATH="$(dirname $0)/.env"
 IS_MACOS=$(uname | grep 'Darwin' | wc -l)
 IS_DISPLAY_CONTEXT=1
-TITLE="🚀SSPanel Auto Checkin v${VERSION}"
+TITLE="🚀机场签到"
 users_array=""
 log_text=""
 COOKIE_PATH="./.ss-autocheckin.cook"
@@ -341,7 +341,7 @@ ssp_autochenkin() {
             user_count=$(expr ${user_count} + 1)
         done
 
-        log_text="${log_text}\n\n免费使用自: https://github.com/isecret/sspanel-autocheckin"
+        log_text="${log_text}"
 
         send_message
 
