@@ -1,0 +1,41 @@
+{
+  "name": "elecV2P 重写订阅",
+  "author": "留个名字 elecV2",
+  "note": "xx 导出的重写规则。该订阅目前仅适用于 elecV2P。更多说明请查看: https://github.com/elecV2/elecV2P-dei/tree/master/docs/05-rewrite.md",
+  "date": "2022-04-26 16:18:01",
+  "type": "rewrite",
+  "resource": "订阅更新远程链接（待填写",
+  "mitmhost": [],
+  "list": [
+    {
+      "match": "v1/task/entry",
+      "stage": "req",
+      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "enable": true
+    },
+    {
+      "match": "v1/timer/tick",
+      "stage": "res",
+      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "enable": true
+    },
+    {
+      "match": "done/ad_watch_daily",
+      "stage": "res",
+      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "enable": true
+    },
+    {
+      "match": "v1/task/done/daily_sign_in",
+      "stage": "res",
+      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "enable": true
+    },
+    {
+      "match": "v1/withdraw/taske_cash",
+      "stage": "res",
+      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "enable": true
+    }
+  ]
+}
