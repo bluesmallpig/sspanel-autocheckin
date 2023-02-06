@@ -5,7 +5,7 @@
   "date": "2023-02-06 06:22:49",
   "type": "rewrite",
   "resource": "订阅更新远程链接（待填写",
-  "mitmhost": [],
+  "mitmhost": ["*.toutiaoapi.com"],
   "list": [
     {
       "match": "news/v1/take_cash/take_cash",
