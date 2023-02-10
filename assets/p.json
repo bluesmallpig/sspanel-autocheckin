@@ -10,35 +10,35 @@
     {
       "match": "news/v1/take_cash/take_cash",
       "stage": "res",
-      "target": "http://script.frp.aiuyo.com:8680/scripts/tl2023/ttpt_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/ttpt_ck.js",
       "enable": true,
       "note": "头条普通版"
     },
     {
       "match": "news/v1/activity/done_whole_scene_task",
       "stage": "req",
-      "target": "http://script.frp.aiuyo.com:8680/scripts/tl2023/ttpt_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/ttpt_ck.js",
       "enable": true,
       "note": "头条普通版"
     },
     {
       "match": "open_treasure_box",
       "stage": "res",
-      "target": "http://script.frp.aiuyo.com:8680/scripts/tl2023/ttpt_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/ttpt_ck.js",
       "enable": true,
       "note": "头条普通版"
     },
     {
       "match": "sign_in/done_task",
       "stage": "res",
-      "target": "http://script.frp.aiuyo.com:8680/scripts/tl2023/ttpt_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/ttpt_ck.js",
       "enable": true,
       "note": "头条普通版"
     },
     {
       "match": "cooperate/exciad/done",
       "stage": "res",
-      "target": "http://script.frp.aiuyo.com:8680/scripts/tl2023/ttpt_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/ttpt_ck.js",
       "enable": true
     }
   ]
