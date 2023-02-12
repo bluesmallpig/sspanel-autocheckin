@@ -9,7 +9,7 @@
   "rewrite": [
     {
       "match": "luckycat/lite/v1/withdraw/withdraw",
-      "stage": "req",
+      "stage": "res",
       "target": "http://script.frp.aiuyo.com:8680/scripts/jrttbcjk.js",
       "enable": true
     },
@@ -21,7 +21,7 @@
     },
     {
       "match": "v1/task.+(open_treasure_box|excitation_ad)",
-      "stage": "req",
+      "stage": "res",
       "target": "http://script.frp.aiuyo.com:8680/scripts/jrttbcjk.js",
       "enable": true
     }
