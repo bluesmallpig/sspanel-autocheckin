@@ -5,7 +5,7 @@
   "date": "2023-02-18 07:30:16",
   "type": "rewrite",
   "resource": "订阅更新远程链接（待填写",
-  "mitmhost": ["*.toutiaoapi.com"]
+  "mitmhost": ["*.toutiaoapi.com"],
   "list": [
     {
       "match": "daily/treasure_box/done",
