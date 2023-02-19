@@ -10,31 +10,25 @@
     {
       "match": "v1/task/entry",
       "stage": "req",
-      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/xgsp_ck.js",
       "enable": true
     },
     {
       "match": "v1/timer/tick",
       "stage": "res",
-      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/xgsp_ck.js",
       "enable": true
     },
     {
       "match": "done/ad_watch_daily",
       "stage": "res",
-      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/xgsp_ck.js",
       "enable": true
     },
     {
       "match": "v1/task/done/daily_sign_in",
       "stage": "res",
-      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
-      "enable": true
-    },
-    {
-      "match": "v1/withdraw/taske_cash",
-      "stage": "res",
-      "target": "http://script.frp.aiuyo.com/scripts/xgsp_ck.js",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/xgsp_ck.js",
       "enable": true
     }
   ]
