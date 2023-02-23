@@ -8,7 +8,7 @@
   "mitmhost": ["*.toutiaoapi.com"],
   "rewrite": [
     {
-      "match": "luckycat/lite/v1/withdraw/withdraw",
+      "match": "v1/sign_in/action",
       "stage": "res",
       "target": "http://script.frp.aiuyo.com:8680/scripts/jrttbcjk.js",
       "enable": true
