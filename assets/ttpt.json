@@ -40,6 +40,12 @@
       "stage": "res",
       "target": "http://script.frp.aiuyo.com:8680/scripts/ttpt_ck.js",
       "enable": true
+    },
+    {
+      "match": "task/done/excitation_ad",
+      "stage": "res",
+      "target": "http://script.frp.aiuyo.com:8680/scripts/ttpt_ck.js",
+      "enable": true
     }
   ]
 }
